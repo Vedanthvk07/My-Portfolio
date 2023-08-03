@@ -4,9 +4,7 @@ import { FaHome,FaPhone,FaMailBulk, FaTwitter, FaLinkedin, FaInstagram } from "r
 import React from 'react'
 
 const Footer = () => {
-  const handleClick=(url)=>{
-    window.location.href=url;
-  }
+
   return (
     <div className="footer">
         <div className="footer-container">

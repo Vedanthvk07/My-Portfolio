@@ -1,14 +1,5 @@
 import "./AboutContent.css"
 import React from 'react'
-import react1 from "../assets/react1.jpg"
-import js1 from "../assets/js1.jpg"
-import py from "../assets/py1.jpg"
-import java from "../assets/java1.jpg"
-import sql from "../assets/sql1.jpg"
-import html from "../assets/html1.jpg"
-import css from "../assets/css1.jpg"
-import c from "../assets/c++.jpeg"
-import php from "../assets/php1.jpg"
 import {Link} from "react-router-dom"
 import { FaBootstrap, FaCss3, FaHtml5, FaJava, FaJs, FaNodeJs, FaPhp, FaPython, FaReact } from "react-icons/fa"
 
