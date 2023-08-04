@@ -3,20 +3,21 @@ import React,{useEffect} from 'react'
 import laptops from "../assets/laptops.jpeg"
 import me from "../assets/portrait.jpg"
 import {Link} from "react-router-dom"
+const sentence = ["React Developer.","Web Developer.","Coder."];
+  
+function animateSentence(sentence, element) {
+  let letters = sentence.split('');
+  element.textContent = '';
+
+  letters.forEach((letter, index) => {
+    setTimeout(() => {
+      element.textContent += letter;
+    }, index * 100); // Adjust the delay (milliseconds) between letter appearances
+  });
+}
+
 const HeroImg = () => {
-  const sentences = ["React Developer.","Web Developer.","Coder."];
-  
-  function animateSentence(sentence, element) {
-    let letters = sentence.split('');
-    element.textContent = '';
-  
-    letters.forEach((letter, index) => {
-      setTimeout(() => {
-        element.textContent += letter;
-      }, index * 100); // Adjust the delay (milliseconds) between letter appearances
-    });
-  }
-  
+
   useEffect(() => {
     const changingWord = document.getElementById("changing-word");
     var i=0;
@@ -29,7 +30,7 @@ const HeroImg = () => {
         i=0;
       }
       var randomIndex = i;
-      animateSentence(sentences[randomIndex], changingWord);
+      animateSentence(sentence[randomIndex], changingWord);
     }
 
     changeSentence(); // Display a sentence initially
