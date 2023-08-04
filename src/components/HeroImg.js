@@ -34,7 +34,7 @@ const HeroImg = () => {
     }
 
     changeSentence(); // Display a sentence initially
-    const intervalId = setInterval(changeSentence, 5000); // Change the sentence every 7 seconds
+    const intervalId = setInterval(changeSentence,5000); // Change the sentence every 7 seconds
     // Clean up the interval on component unmount
     return () => clearInterval(intervalId);
   }, []);
