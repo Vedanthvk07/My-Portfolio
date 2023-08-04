@@ -16,26 +16,24 @@ const HeroImg = () => {
       }, index * 100); // Adjust the delay (milliseconds) between letter appearances
     });
   }
-  var i=0;
+  
   useEffect(() => {
     const changingWord = document.getElementById("changing-word");
-
+    var i=0;
     function changeSentence() {
       if(i<2){
       i=i+1;
+      
       }
       else{
         i=0;
       }
-      
       var randomIndex = i;
-      console.log(randomIndex)
       animateSentence(sentences[randomIndex], changingWord);
     }
 
     changeSentence(); // Display a sentence initially
     const intervalId = setInterval(changeSentence, 5000); // Change the sentence every 7 seconds
-
     // Clean up the interval on component unmount
     return () => clearInterval(intervalId);
   }, []);
