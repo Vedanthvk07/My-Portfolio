@@ -52,3 +52,15 @@
 .btn{
     margin: 20px;
 }
+@media screen and (max-width:900px){
+    .right .img-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        position: relative;
+        align-items:center;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    
+}
