@@ -24,11 +24,13 @@ h1,h4,h2,p,a{
    padding: 12px 32px;
    font-size: 1rem;
    text-transform: uppercase;
-   background: rgb(21, 64, 132);
+   background: rgb(17, 72, 135);
    color:bisque;
    border: 1px solid #fff;
    font-weight: 600;
    cursor:pointer;
+   border-radius: 45%;
+   margin:20px;
  }
  .btn-light{
   padding: 12px 32px;
@@ -39,10 +41,42 @@ h1,h4,h2,p,a{
    cursor:pointer;
   background: transparent;
   color: #fff;
+  border-radius: 45%;
+  margin:20px;
  }
 
  .btn:hover{
-  background: rgb(100,100,100);
-  color: #fff;
+  background: rgb(86, 179, 228);
+  color: #2e2525;
   transition: 0.3s;
+  
+animation: neonGlow 1s infinite alternate; 
+
  }
+ .btn-light:hover{
+  background: rgb(127, 118, 118);
+  color:#2e2525;
+  transition: 0.3s;
+  animation: neonGlow-lt 2s infinite alternate; 
+ }
+
+ @keyframes neonGlow {
+  from {
+    box-shadow: 20px 20px 200px rgba(255, 0, 0, 0.5);
+    
+  }
+  to {
+    box-shadow: 0 0 200px cyan;
+  }
+}
+
+@keyframes neonGlow-lt {
+  from {
+    box-shadow: 0 0 60px rgba(86, 83, 83, 0.5);
+    
+  }
+  to {
+    box-shadow: 0 0 60px rgb(245, 246, 246);
+  }
+}
+

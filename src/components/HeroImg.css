@@ -43,13 +43,21 @@
 
 .hero .content p{
     font-size:1.4rem;
-    font-weight:200;
+    font-weight:400;
     text-transform:uppercase;
+    opacity: 0;
+        animation: slide 1s ease forwards;
 }
 .content .btn{
     margin:1rem 0.2rem;
 }
-
+#secondP{
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-weight: 200;
+  text-transform: none;
+ 
+}
 @media screen and (max-width:900px){
     .hero .content h1{
         font-size: 3rem;
@@ -57,7 +65,13 @@
 
     .hero .content p{
         font-size:1.4rem;
+        opacity: 0;
+        animation: slide 1s ease forwards;
     }
+
+   
+      
+    
     .hero .content{
         position: absolute;
         transform: translate(-50%,-50%);
@@ -138,7 +152,9 @@
     font-size: 40px;
     font-weight: bold;
     color: #fff;
-    
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: slide 1s ease forwards;
     
   }
   
@@ -147,6 +163,16 @@
       opacity: 0;
     }
     to {
+      opacity: 1;
+    }
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0px);
       opacity: 1;
     }
   }

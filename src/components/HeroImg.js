@@ -52,7 +52,8 @@ const HeroImg = () => {
     </div>
   </div>
         <div className="content">
-            <p>Hi, I'm Vedanth</p>
+            <p>Hello, I'm Vedanth</p>
+            <p id="secondP">And I'm a</p>
             <h2 id="changing-word"> </h2>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
