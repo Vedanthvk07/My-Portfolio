@@ -1,10 +1,11 @@
 .mask{
     width:100%;
-    height: 100vh;
+    height: 110vh;
     position: relative;
 }
 
 .intro-img{
+  position: absolute;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -18,7 +19,7 @@
     position:absolute;
     top:0;
     left: 0;
-    background-color: black;
+    background-color: rgb(59, 3, 69);
     opacity: 0.8;
  }
 
@@ -30,24 +31,37 @@
  .hero .content{
     position: absolute;
     transform: translate(-50%,-50%);
-    top:35%;
+    top: 45%;
     left:70%;
     text-align: center;
+    
 
 }
+
 
 .hero .content h2{
+  position: relative;
     font-size: 4rem;
     padding:0.6rem 0 1.5rem;
+    transition: left 2s ease forwards;
 }
-
+.hero .content h2:hover{
+  left: -20px;
+}
 .hero .content p{
+  position: relative;
     font-size:1.4rem;
     font-weight:400;
     text-transform:uppercase;
     opacity: 0;
-        animation: slide 1s ease forwards;
+     animation: slide 1s ease forwards;
+     transition: left 2s ease forwards;
 }
+
+.hero .content p:hover{
+  left: -20px;
+}
+
 .content .btn{
     margin:1rem 0.2rem;
 }
@@ -75,16 +89,16 @@
     .hero .content{
         position: absolute;
         transform: translate(-50%,-50%);
-        top: 280px;
+        top: 285px;
         left:50%;
         text-align: center;
     
     }
     .hero .portrait-container {
         position: relative;
-        width: 150px;  
+        width:150px;  
         height: 200px;  
-        top:-20px;
+        top:-30px;
         left:37%;
       }
 
@@ -97,6 +111,8 @@
         border-radius: 50%;
         opacity: 0.7;
       }
+
+   
 }
 .hero .main{
     display: flex;
@@ -108,11 +124,26 @@
 }
 .portrait-container {
     position: relative;
-    width: 300px;  
-    height: 400px;  
+    width:300px;
+    height:370px;  
     top:0;
     left:200px;
+    transition: left 1s;
   }
+  .portrait-container:hover{
+    left: 160px;
+  }
+
+  /*.portrait-container img{
+    height: 80%;
+    position:absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+  }
+  */
+
   
   .neon-border {
     position: absolute;
@@ -137,12 +168,14 @@
   .main img {
     display: block;
     width: 300px;
-    height: 400px;
+    height: 370px;
     object-fit: cover;
     border-radius: 8px; 
     border-radius: 50%;
     opacity: 0.7;
   }
+  
+
   #changing-word {
     width: 100%;
     height: 100%;

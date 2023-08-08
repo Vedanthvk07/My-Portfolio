@@ -5,7 +5,7 @@
 }
 
 .project-heading h1{
-    margin: 25px;
+    margin: 0 0 40px 0;
 }
 .project-container{
     max-width:1140px;
@@ -18,8 +18,16 @@
 }
 
 .project-card{
+    position: relative;
     background: #1a1919;
     padding:1.2rem 1rem;
+    transition: right 2s bottom 2s;
+}
+.project-card:hover{
+    
+    right:10px;
+    bottom: 15px;
+   box-shadow: 0 0 30px cyan;
 }
 
 .project-card img{

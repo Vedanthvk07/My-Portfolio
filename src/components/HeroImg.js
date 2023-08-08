@@ -2,6 +2,7 @@ import "./HeroImg.css";
 import React,{useEffect} from 'react'
 import laptops from "../assets/laptops.jpeg"
 import me from "../assets/portrait.jpg"
+
 import {Link} from "react-router-dom"
 const sentence = ["React Developer.","Web Developer.","Coder."];
   
@@ -47,10 +48,11 @@ const HeroImg = () => {
         </div>
         <div className="main">
         <div class="portrait-container">
-    <div class="neon-border">
-      <img src={me} alt="Portrait"/>
+  <div className="neon-border">
+      <img src={me}  alt="Portrait"/>
+      </div>  
     </div>
-  </div>
+ 
         <div className="content">
             <p>Hello, I'm Vedanth</p>
             <p id="secondP">And I'm a</p>

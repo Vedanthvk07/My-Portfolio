@@ -1,13 +1,13 @@
 .hero-img{
     width:100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(59,3,69,0.5);
     height:80vh;
     position: relative;
 }
 
 .hero-img:before{
     content:"";
-    background: url(../assets/bg2.jpg);
+    background: url(../assets/bg5.jpg);
     background-size: cover;
     background-position: center top;
     height: 100%;
