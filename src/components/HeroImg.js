@@ -48,8 +48,8 @@ const HeroImg = () => {
         </div>
         <div className="main">
         <div class="portrait-container">
-  <div className="neon-border">
-      <img src={me}  alt="Portrait"/>
+       <div className="neon-border">
+          <img src={me}  alt="Portrait"/>
       </div>  
     </div>
  

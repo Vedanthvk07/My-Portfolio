@@ -41,7 +41,6 @@
     font-size: 1.4rem;
     text-align: center;
 }
-
 @media screen and (max-width:640px){
     .hero-img h1{
         font-size: 2rem;
