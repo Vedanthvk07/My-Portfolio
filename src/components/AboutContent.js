@@ -19,30 +19,30 @@ const AboutContent = () => {
         
         <div className="img-container">
             <div className="img">
-            <FaReact size={200} style={{color:"#fff" ,marginRight:"2rem"}}/>  
+            <FaReact size={150} style={{color:"#fff" ,marginRight:"2rem"}}/>  
             </div>
             <div className="img">
-            <FaHtml5 size={200} style={{color:"#fff" ,marginRight:"2rem"}}/>  
+            <FaHtml5 size={150} style={{color:"#fff" ,marginRight:"2rem"}}/>  
             </div>
             <div className="img">
-            <FaCss3 size={200} style={{color:"#fff" ,marginRight:"2rem"}}/>   
+            <FaCss3 size={150} style={{color:"#fff" ,marginRight:"2rem"}}/>   
             </div>
             <div className="img">
-            <FaJs size={200} style={{color:"#fff" ,marginRight:"2rem"}}/>   
+            <FaJs size={150} style={{color:"#fff" ,marginRight:"2rem"}}/>   
             </div>
             <div className="img">
-            <FaNodeJs size={200} style={{color:"#fff" ,marginRight:"2rem"}}/>  
+            <FaNodeJs size={150} style={{color:"#fff" ,marginRight:"2rem"}}/>  
             </div>
             <div className="img">
-            <FaPython size={200} style={{color:"#fff" ,marginRight:"2rem"}}/>   
+            <FaPython size={150} style={{color:"#fff" ,marginRight:"2rem"}}/>   
             </div>
             <div className="img">
-            <FaJava size={200} style={{color:"#fff" ,marginRight:"2rem"}}/> 
+            <FaJava size={150} style={{color:"#fff" ,marginRight:"2rem"}}/> 
             </div><div className="img">
-            <FaBootstrap size={200} style={{color:"#fff" ,marginRight:"2rem"}}/>  
+            <FaBootstrap size={150} style={{color:"#fff" ,marginRight:"2rem"}}/>  
             </div>
             <div className="img">
-                    <FaPhp size={200} style={{color:"#fff" ,marginRight:"2rem"}}/>   
+                    <FaPhp size={150} style={{color:"#fff" ,marginRight:"2rem"}}/>   
             </div>
 
         </div>

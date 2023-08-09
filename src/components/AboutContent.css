@@ -62,5 +62,9 @@
         justify-content: center;
     
     }
-    
+    .img-container .img{
+        
+        margin: 10px;
+        
+    }
 }
