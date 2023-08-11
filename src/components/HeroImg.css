@@ -83,8 +83,12 @@
         animation: slide 1s ease forwards;
     }
 
-   
-      
+    .hero .content p:hover{
+      left: 0;
+    }
+    .hero .content h2:hover{
+      left:0;
+    }
     
     .hero .content{
         position: absolute;
@@ -111,7 +115,9 @@
         border-radius: 50%;
         opacity: 0.7;
       }
-
+      .portrait-container:hover{
+        left: 0;
+      }
    
 }
 .hero .main{

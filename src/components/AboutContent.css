@@ -16,6 +16,9 @@
 
 }
 
+.size-icon{
+    size:200px;
+}
 .about .left p{
     margin:1.2rem 0;
 
@@ -34,12 +37,13 @@
     text-align: center;
     justify-content: center;
 
+
 }
 
 .img-container .img{
     max-width:100%;
     justify-content: space-around;
-    margin: 15px;
+    margin: 10px;
     border-radius: 40%;
 }
 
@@ -60,6 +64,7 @@
         align-items:center;
         text-align: center;
         justify-content: center;
+        margin-left: 10px;
     
     }
     .img-container .img{
