@@ -12,7 +12,7 @@ const WorkCardData =[
         imgsrc:food1,
         title:"React-Food Order app",
         text:"A restaurant food order app implemented using Reactjs. It includes features to choose food items, add to cart and order the items.The app uses Firebase remote storage.It makes use of React props, states,ContextApi, Fragments and many more features",
-        view:""
+        view:"https://github.com/Vedanthvk07/Food-ordering-app"
     },
     {
         imgsrc:weather,
